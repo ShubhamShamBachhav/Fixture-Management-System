@@ -76,5 +76,4 @@ The app allows users to add, edit, delete, and search fixture details efficientl
     Contact:
     Shubham Bachhav
     Email: shubhambachhavcareer@gmail.com
-    
     Phone: +91 7499229404
