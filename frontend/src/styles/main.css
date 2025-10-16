@@ -1,0 +1,82 @@
+/* main.css - global styles */
+body {
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: #f5f7fb;
+  color: #222;
+  margin: 0;
+}
+
+/* header */
+.header {
+  background: linear-gradient(90deg, #004a9f, #2b6ee6);
+  color: white;
+  padding: 12px 0;
+}
+.header .header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brand {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+.header .btn {
+  margin-left: 8px;
+}
+
+/* container */
+.app-container {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+/* card header style */
+.card-header {
+  background: white;
+  border-bottom: 1px solid #e9ecef;
+}
+
+/* search button (pdf style) */
+.btn-search {
+  background:  #004a9f;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+}
+
+/* table header */
+.table-head th {
+  background: #f0f6ff;
+  
+}
+
+/* images preview */
+.existing-images {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.image-card {
+  width: 120px;
+  border: 1px solid #e6e6e6;
+  padding: 6px;
+  border-radius: 6px;
+  text-align: center;
+}
+.image-card img {
+  max-width: 100%;
+  max-height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.img-actions {
+  margin-top: 6px;
+}
+
+/* responsive tweaks */
+@media (max-width: 767px) {
+  .header .header-inner { flex-direction: column; gap: 8px; }
+  .image-card { width: 90px; }
+}

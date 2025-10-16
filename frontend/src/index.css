@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* all input box color is light gray */
+input.form-control:focus,
+input.form-control {
+  background-color: #f2f6f8;
+  box-shadow: none; /* removes the blue outline in Bootstrap */
+}
+
+/* css for Custom input box background color */
+.custom-input-box {
+  background-color: #f5fbff; /* ultra-light blue */
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  padding: 16px;
+}
+
+
+/* Permanent number input spinners - number incre/decre arrows visible */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: inner-spin-button !important;
+    display: inline-block !important;
+    opacity: 1 !important;
+}
+
+/* Firefox support */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
